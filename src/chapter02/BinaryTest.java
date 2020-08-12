@@ -9,7 +9,7 @@ public class BinaryTest {
 		int hNum = 0xA;		//16진수 0x를 붙이면
 
 		System.out.println(bNum);
-		System.out.println(dNum);
+		System.out.println(dNum); 
 		System.out.println(oNum);
 		System.out.println(hNum);
 
