@@ -19,6 +19,8 @@ public class CastingEx {
 		int iNum = 103029770;
 		byte bNum = (byte) iNum;
 		System.out.println(bNum);
+		
+		
 	}
 
 }
