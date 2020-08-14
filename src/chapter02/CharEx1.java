@@ -10,14 +10,14 @@ public class CharEx1 {
 		System.out.println(num1); // 대문자 'A'는 숫자 65와 같습니다.
 		char ch2 = 66;
 		char ch3 = 67;
-		
+
 		System.out.println(ch2);
 		System.out.println(ch3);
-		
+
 		char ch4 = 'a';
 		int num4 = ch4;
 		System.out.println(num4);
-		
+
 		System.out.println(ch4 - ch1);
 		System.out.println('a' - 'A');
 
