@@ -22,7 +22,7 @@ public class HignLow {
 				System.out.println(cnt + "회 입력");
 			} else {
 				System.out.println("정답입니다.");
-				System.out.println("정답은 " + num + "이며" + cnt + "회 입력하셨습니다.");
+				System.out.println("정답은 " + num + "이며" + cnt + " 회 입력하셨습니다.");
 				break;
 			}
 
