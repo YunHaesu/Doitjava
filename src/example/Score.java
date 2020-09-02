@@ -48,7 +48,37 @@ public class Score {
 		System.out.println("수학 점수 입력 : ");
 		mat = sc.nextInt();
 		
+		char grade = 0;
 		int sum = kor + eng + mat;
-		double ave = sum / 3.0;
+		double avg = sum / 3.0;
+		
+//		if(avg >= 91) {
+//			grade = 'A';
+//		}else if (avg >= 81) {
+//			grade = 'B';
+//		}else if (avg >= 71) {
+//			grade = 'C';
+//		}else {
+//			grade = 'F';
+//		}
+		
+		switch ((int)avg / 10) {
+		case 10:
+		case 9:
+			grade = 'A';
+			break;
+		case 8:
+			grade = 'B';
+			break;
+		case 7:
+			grade = 'C';
+			break;
+
+		default:
+			grade = 'F';
+			break;
+		}
+		
+		System.out.println("당신의 평균 점수는 " + avg + "점이고 " + grade + "등급입니다.");
 	}
 }
