@@ -21,7 +21,7 @@ public class ArrayEx02 {
 		System.out.println();
 		int arr3[] = new int[] { 1, 2, 3, 4, 5 };
 
-		for (int i = 0; i < arr3.length; i++) {
+		for (int i = 0; i < arr3.length; i++) { 
 			System.out.println("arr3[" + i + "] : " + arr3[i]);
 		}
 
