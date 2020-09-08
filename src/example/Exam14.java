@@ -23,6 +23,7 @@ public class Exam14 {
 			}
 			System.out.println();
 		}
+		sc.close();
 	}
 
 }
