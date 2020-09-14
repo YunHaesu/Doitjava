@@ -9,6 +9,7 @@ public class SupersonicAirplane extends Airplane {
 	@Override
 	public void fly() {
 		if (flyMode == SUPERSONIC) {
+			
 			System.out.println("초음속비행합니다.");
 		} else {
 			super.fly(); // 부모클래스의 fly() 메소드 실행

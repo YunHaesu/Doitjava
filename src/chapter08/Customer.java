@@ -6,8 +6,20 @@ public class Customer {
 	protected String customerGrade;
 	int bonusPoint;
 	double bonsRatio;
-
+	
 	public Customer() {
+		initCustomer();
+	}
+	
+
+	
+	public Customer(int customerId,String customerName) {
+		this.customerId = customerId;
+		this.customerName = customerName;
+		initCustomer();
+	}
+	
+	private void initCustomer() {
 		customerGrade = "SILVER";
 		bonsRatio = 0.01;
 	}
