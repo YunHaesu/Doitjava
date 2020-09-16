@@ -6,3 +6,9 @@
 /AICar.class
 /ManualCar.class
 /CarTest.class
+/Player.class
+/PlayerLevel.class
+/BeginnerLevel.class
+/AdvancedLevel.class
+/SuperLevel.class
+/gameLevel.class
