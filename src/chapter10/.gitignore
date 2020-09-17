@@ -18,3 +18,12 @@
 /InterfaceC.class
 /ImplementationC.class
 /Example.class
+/Calc.class
+/Calculator.class
+/CompleteCalc.class
+/CalculatorTest.class
+/Scheduler.class
+/RoundRobin.class
+/LeastJob.class
+/PriorityAllocation.class
+/SchedulerTest.class
