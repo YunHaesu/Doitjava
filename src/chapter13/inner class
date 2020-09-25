@@ -29,3 +29,52 @@ local class
 
 변수의 이름이 같을때 바깥클래스.this.필드명;
 변수의 이름이 같을때 바깥클래스.this.메소드();
+
+
+lambda 매개변수가 2개일 경우 ()를 무조건 사용
+매개변수가 1개일경우 ()생략가능
+매개변수가 0개 일경우는 () 생략 불가능.
+
+람다식 - > stream에서 사용 -> RX자바
+Consumer -> 매개변수를 가지고 리턴값이 없다.
+Supplier -> 매개변수는 없고 리턴값은 있다.
+Function -> 형태를 바꿔줄때 사용 입력을 받아 형태를 바꿔 출력
+Operator -> 입력된 형태와 출력된 형태가 동일하다.
+predicate-> 입력을 받아서 참인지 거짓인지 출력한다.
+
+
+Consumer<T> -> void accept(T t)
+BiConsumer<T,U> - >
+DoubleConsumer
+IntConsumer
+LongConsumer
+ObjDoubleConsumer
+ObjIntConsumer
+ObjLongConsumer
+
+
+
+Supplier<T> -> T get()
+BooleanSupplier -> getAsBoolean
+DoubleSupplier -> getAsDouble
+IntSupplier -> getAsInt
+LongSupplier -> getAsLong
+
+Function -> 출력 As!
+Function <T,R> - >R apply(T t)
+
+Operator - > 같은 형태를 리턴함.
+BinaryOperator<T>
+naryOperator<T>
+DoubleBinaryOperator<T>
+DoublenaryOperator<T>
+IntBinaryOperator<T>
+IntnaryOperator<T>
+LongBinaryOperator<T>
+LongnaryOperator<T>
+
+Predicate<T> -> boolean test(T t)
+BiPredicate<T> -> boolean test(T t)
+DoublePredicate<T> -> boolean test(T t)
+IntPredicate<T> -> boolean test(T t)
+LongPredicate<T> -> boolean test(T t)
