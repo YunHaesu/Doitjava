@@ -1,0 +1,25 @@
+자바 7 이전에는 iterator 반복자를 써서 표현.
+List<String> list = Arrays.list("홍길동","신용권","김자바");
+Stream<String> stream = list.stream();
+stream.forEach(name -> System.out.println(name));
+
+forEach 에는 Consumer가 들어간다.
+
+rangeClosed value1 ~ value 2 까지
+range value1 ~ value2 - 1 까지
+
+리덕션 대량의 데이터를 가공해서 축소하는 것
+반드시 최종처리코드가 필요.
+
+flatMap 맵핑을 하는데 flat하게 해준다 ( 평평) 한겹을 벗겨서 하나의 집합으로 만들어줌.
+맵은 하나의 집합으로 만들어주는것.
+
+flatMap(Function<T>,Stream<R>) T로 들어가서 R로 나온다.
+
+map(Function<T,R>)
+
+int stream과 long stream은 double stream보다 작음으로 변경할수 있다.
+
+boxed() int -> integer
+		long -> Long
+		double -> Double
