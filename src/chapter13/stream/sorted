@@ -1,0 +1,8 @@
+sorted(comparator<T>) 
+
+루핑(peek(),forEach())
+
+forEacd는 최종단계
+peek은 중간단계
+
+최종단계가 나와야 중간단계가 나옴.
